@@ -1,0 +1,86 @@
+/* === Reset básico === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* === Estilos generales === */
+body {
+  font-family: 'Poppins';
+  line-height: 1.6;
+  background-color: #f9fafb;
+  color: #1f2937; /* gris oscuro */
+  padding: 40px 20px;
+}
+
+/* === Contenedor principal === */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* === Títulos === */
+h1 {
+  font-size: 2.5rem;
+  color: #111827; /* gris muy oscuro */
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #1f2937;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+/* === Párrafos y listas === */
+p {
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+
+ul {
+  margin-bottom: 24px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* === Enlaces === */
+a {
+  color: #2563eb; /* azul */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Texto pequeño === */
+.text-sm {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* === Responsive === */
+@media (max-width: 600px) {
+  main {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+}
